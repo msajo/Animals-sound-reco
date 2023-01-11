@@ -1,0 +1,37 @@
+body{
+    font-family: 'Praise', cursive;
+    background-color: #f279ee;
+}
+.header_div{
+    background-color: white;
+    color: #ac59ff;
+    font-size: 30px;
+}
+.title{
+    font-size: 35px;
+}
+.copy_right_footer{
+    position: fixed;
+    color: black(7 , 7, 7);
+    bottom: 0;
+    width: 100%;
+    font: 25px;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px grey;
+}
+.header_div p{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: bold;
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.main_div button{
+    font-family: 'Cormorant Infant', serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
