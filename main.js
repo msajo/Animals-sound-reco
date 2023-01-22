@@ -23,7 +23,7 @@ function gotResults(error, results){
         document.getElementById("hear_tag").style.color= "rgb(" + r + "," + g + "," + b + ")";
         document.getElementById("accuracy").innerHTML = "Accuracy - " + (results[0].confidence * 100).toFixed(2);
         document.getElementById("accuracy").style.color= "rgb(" + r + "," + g + "," + b + ")";
-        img1 = document.getElementById("hearing default img.png")
+        img1 = document.getElementById("Changing_img")
         if(results[0].label=="meow"){
             img1.src = "cat gif.gif";
         }
