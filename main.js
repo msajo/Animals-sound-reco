@@ -31,13 +31,13 @@ function gotResults(error, results){
             img1.src = "puppy.gif";
         }
         else if(results[0].label=="moo"){
-            img1.scr == "cow.gif";
+            img1.src = "cow.gif";
         }
         else if(results[0].label=="roar"){
-            img1.src=="tiger.gif";
+            img1.src ="tiger.gif";
         }
         else if(results[0].label=="Background Noise"){
-            img1.src=="hearing default img.png"
+            img1.src ="hearing default img.png"
         }
 
     }
